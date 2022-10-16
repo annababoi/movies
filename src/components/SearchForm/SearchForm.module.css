@@ -1,0 +1,4 @@
+.searchButton {
+    background-color: var(--badges);
+    color: var(--text-color);
+}

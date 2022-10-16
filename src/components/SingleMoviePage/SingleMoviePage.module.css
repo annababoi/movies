@@ -1,0 +1,35 @@
+
+.currentMovieContent {
+    font-size: 1.3em;
+    padding: 30px;
+    max-width: 90%;
+    margin: auto;
+}
+.currentMovieContainer{
+    background: var(--primary-color);
+}
+.currentMovieInfo {
+    display: flex;
+    flex-direction: row;
+    color:var(--text-color)
+}
+
+
+.currentMovieTitle{
+    font-size: 3em;
+    color: var(--text-color)
+}
+.currentMovieSubtitle{
+    font-size: 1.7em;
+    color: var(--text-color)
+
+}
+.singleMovieImage {
+    max-width: 40%;
+    max-height: 600px;
+}
+
+.info {
+    margin-left: 50px;
+    width: 60%;
+}

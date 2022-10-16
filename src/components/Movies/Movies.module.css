@@ -1,0 +1,35 @@
+.Movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: var(--content-fone);
+    padding: 20px;
+}
+
+.btns {
+    align-self: center;
+}
+
+.btns button {
+    color: #989898;
+    width: 120px;
+    height: 40px;
+    margin: 30px 5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentBox{
+    background: var(--content-fone);
+}
+
+.pagination{
+    margin: 30px 0;
+}

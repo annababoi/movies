@@ -1,0 +1,24 @@
+@import 'bulma/css/bulma.min.css';
+
+:root{
+    --primary-color: #ffffff;
+    --text-color: #2f200d;
+    --content-fone: #ffffff;
+    --badges: #f0eeef;
+    --badges-text: #150050;
+
+}
+.dark{
+    --primary-color: #121212;
+    --text-color: #FAF7F0;
+    --content-fone: #180A0A;
+    --badges: #F10086;
+    --badges-text: #FAF7F0;
+}
+
+.pagination-link, .pagination-next, .pagination-previous{
+    background-color: var(--content-fone);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+

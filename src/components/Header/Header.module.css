@@ -1,0 +1,31 @@
+
+.headerBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    background: var(--primary-color);
+    width: 100vw;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userIcon{
+    width: 50px;
+
+}
+
+.userIcon img{
+    border-radius: 50%;
+    border: 1px solid #d3c8c8;
+}
+.userName{
+    color: var(--text-color);
+    font-size: 0.8em;
+}
+
+.emblemTitle{
+    font-size: 2.5em;
+}
