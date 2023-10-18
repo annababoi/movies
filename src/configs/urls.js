@@ -1,14 +1,10 @@
-const baseURL = 'https://api.themoviedb.org/3';
-const imgURL = 'https://image.tmdb.org/t/p/'
+const baseURL = process.env.BASE_URL;
+const imgURL = process.env.IMG_URL;
 const urls = {
-    movies:'/discover/movie',
-    movie: '/movie',
-    genres:'/genre/movie/list',
-    search:'/search/movie'
-}
+  movies: process.env.MOVIES,
+  movie: process.env.MOVIE,
+  genres: process.env.GENRES,
+  search: process.env.SEARCH,
+};
 
-export {
-    baseURL,
-    urls,
-    imgURL
-}
+export { baseURL, urls, imgURL };
